@@ -8,7 +8,7 @@ def display_menu():
     print(f"2.Withdraw from your account")
     print(f"3.Check your account balance")
     print(f"4.Exit")
-
+    
 while True:
     display_menu()
     choice = int(input("Enter your choice: "))
