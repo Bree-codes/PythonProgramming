@@ -38,7 +38,7 @@ def lcs(X, Y):
 
 # Example usage
 X = "ABCDGHZ"
-Y = "AEDFHR"
+Y = "AEDFHRZ"
 length, subsequence = lcs(X, Y)
 print(f"LCS length: {length}")
 print(f"LCS: {subsequence}")
